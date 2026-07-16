@@ -11,7 +11,7 @@
     "kv:list": "wrangler kv key list --binding=PINCODE_MAP"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260101.0",
+    "@cloudflare/workers-types": "^5.20260710.1",
     "typescript": "^5.6.0",
     "wrangler": "^4.0.0"
   }

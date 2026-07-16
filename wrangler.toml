@@ -10,7 +10,7 @@ not_found_handling = "single-page-application"
 
 [[kv_namespaces]]
 binding = "PINCODE_MAP"
-id = "PLACEHOLDER_KV_ID"
+id = "4700d379bd9a439fbf997a03f7f85ed2"
 
 [vars]
 VENDOR_TTU_URL = "https://ttu.v2kart.com"
