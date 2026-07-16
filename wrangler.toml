@@ -1,0 +1,23 @@
+name = "v2kart-router"
+main = "src/index.ts"
+compatibility_date = "2026-01-01"
+account_id = "bab06c93e17ae71cae3c11b4cc40240b"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[[kv_namespaces]]
+binding = "PINCODE_MAP"
+id = "PLACEHOLDER_KV_ID"
+
+[vars]
+VENDOR_TTU_URL = "https://ttu.v2kart.com"
+VENDOR_GA_URL = "https://ga.v2kart.com"
+DEFAULT_SPLIT = "hash"
+
+# Prod route wired after DNS
+# [[routes]]
+# pattern = "v2kart.com/*"
+# zone_name = "v2kart.com"
